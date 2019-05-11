@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/button3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="@drawable/button2">
+
+            <ImageView
+                android:id="@+id/btn_dlg_details_back"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/previous"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"/>
+
+            <Components.TextViewFont
+                app:customFont="@string/font_default2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="@string/dialog_resid_caption"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                android:layout_weight="1"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/button3">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/button2"
+                android:orientation="vertical">
+
+                <Components.TextViewFont
+                    android:id="@+id/txt_resid_cost"
+                    app:customFont="@string/font_default2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dialog_resid_cost"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/button1">
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/button1"
+                android:orientation="vertical">
+
+                <Components.TextViewFont
+                    app:customFont="@string/font_default2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/dialog_resid_az"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"/>
+
+                <Components.TextViewFont
+                    app:customFont="@string/font_default2"
+                    android:id="@+id/txt_resid_sourceaddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/dialog_resid_sourcepath"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"/>
+
+                <Components.TextViewFont
+                    app:customFont="@string/font_default2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dialog_resid_ta"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"/>
+
+                <Components.TextViewFont
+                    app:customFont="@string/font_default2"
+                    android:id="@+id/txt_resid_destaddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/dialog_resid_destpath"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/button1">
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/panel_resid_thingsinfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Components.TextViewFont
+                    app:customFont="@string/font_default2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/dialog_resid_thingsinfocaption"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="2dp"
+                    android:gravity="center"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="@color/common_google_signin_btn_text_dark_pressed"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/button2"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <Components.TextViewFont
+                            app:customFont="@string/font_default2"
+                            android:id="@+id/txt_resid_weight"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/dialog_resid_weightvalue"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginRight="2dp"
+                            android:gravity="center"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"/>
+
+                        <Components.TextViewFont
+                            app:customFont="@string/font_default2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/dialog_resid_weightstring"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="2dp"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <Components.TextViewFont
+                            app:customFont="@string/font_default2"
+                            android:id="@+id/txt_resid_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/dialog_resid_valuevalue"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginRight="2dp"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"/>
+
+                        <Components.TextViewFont
+                            app:customFont="@string/font_default2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/dialog_resid_valuestring"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="2dp"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <Components.TextViewFont
+                            app:customFont="@string/font_default2"
+                            android:id="@+id/txt_resid_description"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/dialog_resid_descriptionvalue"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginRight="2dp"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"/>
+
+                        <Components.TextViewFont
+                            app:customFont="@string/font_default2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/dialog_resid_descriptionstring"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="2dp"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <ProgressBar
+            android:id="@+id/progress_resid_driverinfo"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center"
+            android:indeterminate="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

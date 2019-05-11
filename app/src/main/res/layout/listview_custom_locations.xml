@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:gravity="right">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:orientation="horizontal"
+        android:background="@drawable/winbody"
+        android:gravity="right"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical|right">
+
+        <Components.TextViewFont
+            android:id="@+id/txt_customlocations_mypathname"
+            app:customFont="@string/font_default2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="اسم مورد نظر من"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:textColor="#222222"
+            android:layout_marginBottom="5dp" />
+
+        <Components.TextViewFont
+            android:id="@+id/txt_customlocations_address"
+            app:customFont="@string/font_default2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="تهران، تهران، صادقیه"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:textSize="18sp"
+            android:textColor="#222222"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/star"/>
+
+    </LinearLayout>
+
+</LinearLayout>

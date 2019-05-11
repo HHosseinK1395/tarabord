@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+
+    <fragment
+        android:id="@+id/map"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="ir.iro.passenger.ActivityMain">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:src="@drawable/marker9"
+            android:id="@+id/center_imageview">
+        </ImageView>
+
+
+        <Components.TextViewFont
+            android:id="@+id/id"
+            app:customFont="@string/font_default2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignLeft="@+id/center_imageview"
+            android:layout_alignTop="@+id/center_imageview"
+            android:layout_alignRight="@+id/center_imageview"
+            android:layout_alignBottom="@+id/center_imageview"
+            android:layout_margin="1dp"
+            android:gravity="center"
+            android:text="Hello"
+            android:textColor="#000000"/>
+    </fragment>
+
+</LinearLayout>

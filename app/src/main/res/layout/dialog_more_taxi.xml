@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            android:background="@drawable/button3">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="#222222">
+
+                        <ImageView
+                            android:id="@+id/btn_dlg_moretaxi_back"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:background="@drawable/previous"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"/>
+
+                        <Components.TextViewFont
+                            android:id="@+id/caption_searchbar"
+                            app:customFont="@string/font_default2"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="@string/dialog_moretaxi_caption"
+                            android:layout_gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="#ffffff"
+                            android:layout_weight="1"
+                            android:gravity="center" />
+
+                </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button1"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+
+                        <Components.TextViewFont
+                            app:customFont="@string/font_default2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/dialog_moretaxi_goinground"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="5dp"
+                            android:textSize="16sp"
+                            android:textColor="#ffffff"/>
+
+                        <CheckBox
+                            android:id="@+id/chk_dlg_moretaxi_raftobargasht"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffff"
+                            android:text=""/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+
+                        <Components.TextViewFont
+                            app:customFont="@string/font_default2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="@string/dialog_moretaxi_stopstring1"
+                            android:layout_gravity="center"
+                            android:textSize="12sp"
+                            android:textColor="#ffffff"/>
+
+                    <SeekBar
+                        android:id="@+id/seek_dlg_moretaxi_timepicker"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"/>
+
+                    <Components.TextViewFont
+                            app:customFont="@string/font_default2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/dialog_moretaxi_stopstring2"
+                            android:layout_gravity="center"
+                            android:textSize="12sp"
+                            android:textColor="#ffffff"/>
+
+                </LinearLayout>
+
+                <Components.TextViewFont
+                    android:id="@+id/txt_dlg_moretaxi_showtime"
+                    app:customFont="@string/font_default2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/dialog_moretaxi_timeshow"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:textSize="14sp"
+                    android:textColor="#ffffff"/>
+
+            </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+                </LinearLayout>
+
+                <Components.ButtonFont
+                    android:id="@+id/btn_dlg_moretaxi_ok"
+                    app:customFont="@string/font_default"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center|bottom"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/dialog_moretaxi_ok"
+                    android:background="@drawable/button1"
+                    android:textSize="@dimen/button_font_size"
+                    android:textColor="#ffffff"/>
+
+        </LinearLayout>
+
+</LinearLayout>

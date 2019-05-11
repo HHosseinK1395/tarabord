@@ -1,0 +1,164 @@
+<resources>
+    <string name="app_name">ترابرد</string>
+    <string name="title_activity_activity_main">ترابرد</string>
+    <string name="font_default">fonts/B_Koodak_Bold.ttf</string>
+    <string name="font_default2">fonts/B_Yekan.ttf</string>
+    <string name="no_address">اتصال اینترنت خود را چک کنید</string>
+    <string name="credit">اعتبار ترابرد</string>
+    <string name="account">حساب کاربری</string>
+    <string name="trips">سفرها</string>
+    <string name="locations">مکان های منتخب</string>
+    <string name="messages">پیام ها</string>
+    <string name="support">پشتیبانی</string>
+    <string name="share">سفرهای رایگان</string>
+    <string name="description">ترابرد را با دوستان و آشنایان خود به اشتراک بگذارید و سفر رایگان هدیه بگیرید</string>
+
+
+    <string name="serverurl">http://192.168.43.247:8081/IROWebService.svc/IRO/GetAddressByLatlng</string>
+
+    <string name="savari">سواری</string>
+    <string name="baari">باری</string>
+    <string name="peyk">پیک</string>
+
+    <string name="shared_prefrences_name">GLOBAL_SHARED_PREFERENCES</string>
+    <string name="once_run">once_run</string>
+    <string name="user_current_lat">current_lat</string>
+    <string name="user_current_lng">current_lng</string>
+    <string name="cannot_more_destination_selected">در حال حاضر بیشتر از 4 مقصد قابل انتخاب نیست</string>
+    <string name="please_select_your_address">لطفا آدرس مورد نظر را انتخاب کنید</string>
+    <string name="double_tap_for_exit">برای خروج دکمه ی بازگشت را دوباره کلیک کنید</string>
+    <string name="can_not_change_service">در این بخش نمیتوانید نوع سرویس را تغییر دهید !!!</string>
+    <string name="service_not_access">سرویس در حال حاضر فعال نمیباشد . . . </string>
+
+    <string name="google_play_services_not_exist">سرویس گوگل شما فعال نمی باشد!!!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="stop_time_list">
+        <item>5 دقیقه</item>
+        <item>10 دقیقه</item>
+        <item>15 دقیقه</item>
+        <item>20 دقیقه</item>
+        <item>25 دقیقه</item>
+        <item>30 دقیقه</item>
+        <item>35 دقیقه</item>
+        <item>40 دقیقه</item>
+        <item>45 دقیقه</item>
+        <item>50 دقیقه</item>
+        <item>55 دقیقه</item>
+        <item>1 ساعت</item>
+    </string-array>
+
+    <!-- actionbar_custom_view.xml -->
+    <string name="actionbar_customview_caption">ترابرد</string>
+    <string name="actionbar_customview_taxiservice">نمایش سرویس</string>
+    <string name="actionbar_customview_taxiyab">معمولی</string>
+    <string name="actionbar_customview_multidest">چند مقصدی</string>
+    <string name="actionbar_customview_destlist">مشاهده مقصد ها</string>
+    <string name="actionbar_customview_sourcepathconfirm">تایید مبدا</string>
+    <string name="actionbar_customview_discountcode">کد تخفیف</string>
+    <string name="actionbar_customview_tripscost">هزینه سفر 0  ریال</string>
+    <string name="actionbar_customview_destpathconfirm">تایید مقصد</string>
+    <string name="actionbar_customview_details">ورود به جزئیات</string>
+
+    <!-- dialog_details.xml -->
+    <string name="dialog_details_caption">جزئیات بسته یا بار</string>
+    <string name="dialog_details_delivery">تحویل گیرنده</string>
+    <string name="dialog_details_deliverymobilehint">شماره موبایل</string>
+    <string name="dialog_details_deliverynamehint">نام کامل</string>
+    <string name="dialog_details_deliverymobilenumber">09353847775</string>
+    <string name="dialog_details_deliverymobilestrings">مثال  </string>
+    <string name="dialog_details_deliveryaddresscaption">آدرس دقیق</string>
+    <string name="dialog_details_deliveryaddresshint">آدرس دقیق</string>
+    <string name="dialog_details_deliverydescriptioncaption">توضیحات</string>
+    <string name="dialog_details_deliverydescriptionhint">ارزش بسته و توضیحات و . . . </string>
+    <string name="dialog_details_confirmation">درخواست ترابرد</string>
+
+    <!-- dialog_more_taxi.xml -->
+    <string name="dialog_moretaxi_caption">بیشتر</string>
+    <string name="dialog_moretaxi_goinground">رفت و برگشت</string>
+    <string name="dialog_moretaxi_stopstring1">در طول مسیر</string>
+    <string name="dialog_moretaxi_stopstring2">درخواست توقف</string>
+    <string name="dialog_moretaxi_timeshow">0 دقیقه</string>
+    <string name="dialog_moretaxi_ok">تایید</string>
+
+    <!-- dialog_multipath.xml -->
+    <string name="dialog_multidest_caption">چند مقصده</string>
+
+    <!-- dialog_resid.xml -->
+    <string name="dialog_resid_caption">رسید سفارش تاکسی</string>
+    <string name="dialog_resid_cost">هزینه سفر 5000 تومان</string>
+    <string name="dialog_resid_az">از</string>
+    <string name="dialog_resid_sourcepath">تهران ، سعادت آباد</string>
+    <string name="dialog_resid_ta">تا</string>
+    <string name="dialog_resid_destpath">تهران ، میدارن آزادی</string>
+    <string name="dialog_resid_thingsinfocaption">مشخصات وسیله</string>
+    <string name="dialog_resid_weightvalue">2کیلوگرم</string>
+    <string name="dialog_resid_weightstring">وزن:</string>
+    <string name="dialog_resid_valuevalue">100هزار تومن</string>
+    <string name="dialog_resid_valuestring">ارزش:</string>
+    <string name="dialog_resid_descriptionvalue">لطفا دقت شود</string>
+    <string name="dialog_resid_descriptionstring">توضیحات:</string>
+
+    <!-- dialog_search.xml -->
+    <string name="dialog_search_caption">جستجو</string>
+    <string name="dialog_search_hint">جستجو...</string>
+
+    <!-- fragment_account.xml -->
+    <string name="fragment_account_caption">حساب کاربری</string>
+    <string name="fragment_account_userinfocaption">اطلاعات شخصی</string>
+    <string name="fragment_account_usernamehint">حسین کاردگر</string>
+    <string name="fragment_account_callinfocaption">اطلاعات تماس</string>
+    <string name="fragment_account_phonenumber">+989216469341</string>
+    <string name="fragment_account_phonenumberstring">شماره تماس</string>
+    <string name="fragment_account_email">h.kardgar1393@gmail.com</string>
+    <string name="fragment_account_emailstring">ایمیل</string>
+    <string name="fragment_account_creditcaption">اعتبار</string>
+    <string name="fragment_account_creditbuttoncaption">0 تومان</string>
+    <string name="fragment_account_creditstring">اعتبار IRO</string>
+    <string name="fragment_account_turnoverstring">گردش مالی</string>
+    <string name="fragment_account_exitcaption">خروج</string>
+    <string name="fragment_account_exitstring">خروج از حساب کاربری</string>
+
+    <!-- fragment_credit.xml -->
+    <string name="fragment_credit_caption">اعتبار ترابرد</string>
+    <string name="fragment_credit_credit">0 تومان</string>
+    <string name="fragment_credit_creditstring">اعتبار ترابرد</string>
+    <string name="fragment_credit_2000toman">20,000 تومان</string>
+    <string name="fragment_credit_5000toman">50,000 تومان</string>
+    <string name="fragment_credit_10000toman">100,000 تومان</string>
+    <string name="fragment_credit_toman">تومان</string>
+    <string name="fragment_credit_tomanvaluehint">میزان افزایش اعتبار </string>
+    <string name="fragment_credit_increasevredit">افزایش اعتبار</string>
+
+    <!-- fragment_locations.xml -->
+    <string name="fragment_locations_caption">مکان های منتخب</string>
+
+    <!-- fragment_messages.xml -->
+    <string name="fragment_message_caption">پیام ها</string>
+
+    <!-- fragment_share.xml -->
+    <string name="fragment_share_caption">سفر رایگان</string>
+    <string name="fragment_share_header">سفر رایگان</string>
+    <string name="fragment_share_string">با اشتراک کد زیر با دوستان خود ، پنج هزار تومان اعتبار هدیه دهید و پس از اولین سفرشان ، پنج هزار تومان اعتبار سفر دریافت کنید</string>
+    <string name="fragment_share_code">XVCFDS</string>
+    <string name="fragment_share_codesring">کد دعوت شما</string>
+
+    <!-- fragment_trips.xml -->
+    <string name="fragment_trips_caption">سفرهای پیشین</string>
+
+        <string name="navigation_left_servicedescription">سواری یا همان تاکسی ها برای رساندن شما دوستان عزیز</string>
+    <string name="navigation_left_serivcetype"></string>
+
+    <string name="payment_activity_toolbar">پرداخت</string>
+    <string name="payment_activity_amount">10,000 تومان</string>
+
+    <!--Main Menu-->
+    <string name="main_menu_handy_payment">پرداخت دستی</string>
+    <string name="main_menu_automatic_payment">پرداخت اتوماتیک</string>
+    <string name="main_menu_travel_plan_payment">پرداخت برنامه سفر</string>
+    <string name="main_menu_toll_payment">پرداخت پارکبان</string>
+
+    <string name="loading_text">لطفا منتظر بمانید</string>
+
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:gravity="right"
+    android:background="#f5f5f5">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        android:background="@drawable/winheader"
+        android:layout_marginTop="5dp">
+
+        <Components.TextViewFont
+            android:id="@+id/txt_custommessage_date"
+            app:customFont="@string/font_default2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="تاریخ و ساعت پیام"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#eeeeee"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/winbody"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp">
+
+        <Components.TextViewFont
+            android:id="@+id/txt_custommessage_titr"
+            app:customFont="@string/font_default2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="تیتر پیام"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginRight="20dp"
+            android:textColor="#111111"
+            android:layout_gravity="right"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp" />
+
+        <Components.TextViewFont
+            android:id="@+id/txt_custommessages_message"
+            app:customFont="@string/font_default2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="متن پیام در این بخش پیام شما تایپ شده و میتوانید متن پیام را از این قسمت بخوانید"
+            android:textStyle="bold"
+            android:layout_marginRight="25dp"
+            android:textSize="20sp"
+            android:textColor="#222222"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp" />
+
+        <Components.TextViewFont
+            android:id="@+id/txt_custommessages_linktoweb"
+            app:customFont="@string/font_default2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="بیشتر . . . "
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="left"
+            android:textSize="20sp"
+            android:textColor="@color/default_color"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+    </LinearLayout>
+
+</LinearLayout>

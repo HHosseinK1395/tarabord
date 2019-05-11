@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:gravity="right">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/button2"
+        android:gravity="right">
+
+
+    <ImageView
+        android:id="@+id/img_customtrips_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/maptest"/>
+
+    <Components.TextViewFont
+        android:id="@+id/txt_customtrips_date"
+        app:customFont="@string/font_default2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="شنبه 12 فروردین   04:34"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginRight="10dp"
+        android:textColor="#ffffff"/>
+
+    <Components.TextViewFont
+        android:id="@+id/txt_customtrips_price"
+        app:customFont="@string/font_default2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5,500 تومان"
+        android:textStyle="bold"
+        android:layout_marginRight="10dp"
+        android:textSize="20sp"
+        android:textColor="#ffffff"/>
+    </LinearLayout>
+
+</LinearLayout>

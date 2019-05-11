@@ -1,0 +1,20 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:endColor="@color/polyline_stroke_color"
+        android:centerColor="@color/polyline_stroke_color"
+        android:startColor="@color/polyline_stroke_color"
+        android:angle="270"/>
+
+    <corners
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp"/>
+
+    <stroke android:width="0.5dp"
+        android:color="@color/text_color_light_gray"/>
+
+    <padding
+        android:left="0dp"
+        android:top="0dp"
+        android:right="0dp"
+        android:bottom="0dp" />
+</shape>
